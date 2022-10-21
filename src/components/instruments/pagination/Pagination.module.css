@@ -1,0 +1,7 @@
+.paginationWrap{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    justify-items: center;
+    align-items: center;
+}

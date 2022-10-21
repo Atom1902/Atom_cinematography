@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+.headerDark,.headerLight{
+    display: flex;
+    color: snow;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.headerDark{
+    color: black;
+}
+
+.headerLight{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(241, 241, 241) 0%, rgb(245, 245, 245) 50%, rgb(239, 239, 239) 100%);
+    color: black;
+}
+
+.headerLight a{
+    color: black;
+}
+
+.headerDark a{
+    color: black;
+}
+
+.link a{
+    margin: 10px;
+    text-decoration: none;
+    transition: color 500ms;
+}
+
+.link a:hover{
+    color: orange;
+}
+
+.headerDark .link a[class='active']{
+    border-bottom: 2px white solid;
+    transition: color 500ms;
+}
+
+.headerLight .link a[class='active']{
+    border-bottom: 2px #000000 solid;
+    transition: color 500ms;
+}
+
+.modal{
+   position: absolute;
+    top: 50px;
+}
+.anime{
+    position: absolute;
+    top: 70px;
+    color: transparent;
+    -webkit-text-stroke: .07em rgb(241, 9, 9);
+}
+
+

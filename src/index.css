@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("https://images.pexels.com/photos/390089/film-movie-motion-picture-390089.jpeg?cs=srgb&dl=pexels-skitterphoto-390089.jpg&fm=jpg") no-repeat center fixed;
+  background-size: cover;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bodyDark{
+  background: url("https://images.pexels.com/photos/390089/film-movie-motion-picture-390089.jpeg?cs=srgb&dl=pexels-skitterphoto-390089.jpg&fm=jpg") no-repeat center fixed;
+  background-size: cover;
+
+}
+
+.bodyLight{
+  background: rgb(63,65,66);
+  background: linear-gradient(90deg, rgb(246, 246, 246) 0%, rgb(246, 246, 246) 50%, rgb(238, 238, 238) 100%);
+  height: 100vw;
+}
+
+*{
+  font-family: 'Segoe UI','Consolas', serif;
+
+}

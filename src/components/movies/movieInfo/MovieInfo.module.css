@@ -1,0 +1,107 @@
+.wrapDark,.wrapLight{
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapDark{
+    background: url("https://images.pexels.com/photos/390089/film-movie-motion-picture-390089.jpeg?cs=srgb&dl=pexels-skitterphoto-390089.jpg&fm=jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.wrapLight{
+    background: linear-gradient(90deg, rgb(246, 246, 246) 0%, rgb(246, 246, 246) 50%, rgb(238, 238, 238) 100%);
+}
+
+.title{
+    font-size: 40px;
+}
+
+.overview p {
+    font-size: 22px;
+}
+
+.data{
+     width: 50%;
+}
+
+.data div {
+    margin:10px;
+    background: #9ea1a1;
+    transition: 100ms;
+    padding: 5px;
+}
+
+.data img {
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlePoster{
+    height: 90%;
+    margin: 10px ;
+    background: #848a8d;
+    border-radius: 25px;
+    border: 15px solid #848a8d;
+}
+
+.titlePoster img {
+    border-radius: 15px;
+}
+
+.infoPageLight, .infoPageDark{
+    width: 100%;
+}
+
+.infoPageDark{
+    background: url("https://images.pexels.com/photos/390089/film-movie-motion-picture-390089.jpeg?cs=srgb&dl=pexels-skitterphoto-390089.jpg&fm=jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.infoPageLight{
+    background: linear-gradient(90deg, rgb(246, 246, 246) 0%, rgb(246, 246, 246) 50%, rgb(238, 238, 238) 100%);
+}
+
+.data div:hover {
+    background: #848a8d;
+}
+
+a{
+    text-decoration: none;
+}
+
+.plane{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.reviews{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-weight: 800 ;
+    letter-spacing: 10px;
+}
+
+.reviews svg{
+    width: 50px;
+    font-size: 50px;
+}
+
+.down{
+    transform: rotateZ(90deg);
+}
+
+.aboutTheMovie{
+    font-size: 20px;
+}

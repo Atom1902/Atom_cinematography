@@ -1,0 +1,27 @@
+.wrap_topRated{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.carouselWrap{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.topRatedLight, .topRatedDark{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800 ;
+    letter-spacing: 10px;
+}
+
+.topRatedLight{
+    color: black;
+}
+
+.topRatedDark{
+    color: snow;
+}

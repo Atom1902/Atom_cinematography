@@ -1,0 +1,10 @@
+.genreLink {
+    /*text-decoration: none;*/
+    color: white;
+    font-size: 15px;
+    transition: 500ms;
+}
+
+.genreLink:hover {
+    color: #ffa000;
+}
